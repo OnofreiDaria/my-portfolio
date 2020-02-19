@@ -65,6 +65,7 @@ li {
 a {
   text-decoration: none;
 }
+
 img {
   width: 100%;
 }
@@ -220,6 +221,9 @@ nav {
   font-weight: 700;
   padding: 10px 5px;
   font-size: 16px;
+}
+nav .right-menu a {
+  font-size: 24px;
 }
 .nav a:hover,
 .nav a:active,
@@ -380,7 +384,7 @@ small {
 }
 .content {
   position: relative;
-  height: 400px;
+  height: 410px;
   padding: 2em;
 }
 .content:after {
@@ -688,7 +692,7 @@ figcaption {
     width: 88%;
   }
   .box h1 {
-    top: 5%;
+    top: 15%;
     left: -9%;
   }
 }
@@ -696,6 +700,7 @@ figcaption {
 @media all and (max-width: 600px) {
   .menu {
     padding: 0;
+    margin: 0;
   }
   nav {
     flex-wrap: wrap;
@@ -726,13 +731,19 @@ figcaption {
   .violet-block {
     padding-left: 0;
   }
+  .my-photo {
+    display:none;
+  }
 
 }
 @media all and (max-width: 480px) {
   h1 {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
   .container {
     overflow: hidden;
+  }
+  .box h1 {
+    left: 20px;
   }
 }
