@@ -55,6 +55,9 @@ p {
 i {
   font-style: italic;
 }
+ul {
+  list-style: none;
+}
 li {
   padding: 10px 0;
   text-align: left;
@@ -96,7 +99,7 @@ textarea {
 .menu {
   padding: 20px 0;
 }
-li {
+.menu li {
   display: inline-block;
   padding: 5px;
 }
@@ -474,6 +477,30 @@ figcaption {
   transform: translate(0,0);
 }
 
+/****************************************************/
+.gradient {
+  position: relative;
+  padding-left: 30px;
+}
+.gradient:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  content: '';
+  background: repeating-linear-gradient(
+      45deg,
+      #180A5C,
+      #4B79EA,
+      #180A5C 7px,
+      #6520C1 5px,
+      #40CEF8 5px,
+      #6520C1 10px,
+      #180A5C 7px,
+      #A76BFD 7px
+  );
+}
 /****************************************************/
 
 @media all and (max-width: 600px) {
