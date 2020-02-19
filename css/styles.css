@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "enigma";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/enigma/EnigmaB_2.eot"),
+  url("../fonts/enigma/EnigmaticBold.woff") format("woff"),
+  url("../fonts/enigma/EnigmaB_2.woff2") format("woff2"),
+  url("../fonts/enigma/EnigmaB_2.ttf") format("truetype"),
+  url('../fonts/enigma/EnigmaticBold.svg') format('svg');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.6;
+  overflow-x: hidden;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+main {
+  width: 100%;
+  background: url(../img/bg.jpg) no-repeat top;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+/******* Menu ********/
+.menu {
+  padding: 20px 0;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+}
+.menu a {
+  font-family: 'enigma', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 5px;
+}
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+   color: #d21551;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  width: 100%;
+  background: #3c318d;
+  position: fixed;
+  z-index: 999;
+  margin-bottom: 75px;
+}
+.nav a {
+  font-family: 'enigma', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+   color: #d21551;
+ }
+
+/* GRID */
+section {
+  padding: 80px 0;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+>>>>>>> origin/master
+}
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
+  padding:0 15px;
+  position: relative;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  padding: 15px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 32.33%;
+  flex: 0 0 32.33%;
+  padding: 0 15px;
+}
+.col-2 {
+  width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+.padding-0 {
+  padding-right:0;
+  padding-left:0;
+}
+
+.col-2 {
+  width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+
+
+
+
+@media all and (max-width: 600px) {
+  .menu {
+    padding: 0;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+  nav .brand {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+}
