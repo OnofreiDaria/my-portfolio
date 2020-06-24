@@ -184,9 +184,9 @@ a {
 
 
 /******* Menu ********/
-.menu {
-  padding: 20px 0;
-}
+/*.menu {*/
+/*  padding: 20px 0;*/
+/*}*/
 .menu li {
   display: inline-block;
   padding: 5px;
