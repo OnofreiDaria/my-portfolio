@@ -747,3 +747,8 @@ figcaption {
     left: 20px;
   }
 }
+@media all and (max-width: 380px) {
+  .container {
+    padding: 0;
+  }
+}
