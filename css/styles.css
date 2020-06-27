@@ -96,6 +96,13 @@ textarea {
 .mt-15 {
   margin-top: 15px;
 }
+.text-uppercase {
+  text-transform: uppercase;
+}
+.color-pink {
+  color: #d21551;
+  text-shadow: 2px 2px 2px #fff;
+}
 /**************************************************************** BUTTONS AND LINKS****************************************************************/
 a {
   text-decoration: none;
