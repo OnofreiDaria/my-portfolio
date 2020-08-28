@@ -237,7 +237,11 @@ nav .right-menu a {
 .nav a:focus {
    color: #d21551;
  }
-
+nav .right-menu img {
+  height: 30px;
+  width: auto;
+  vertical-align: middle;
+}
 /* GRID */
 section {
   padding: 70px 0;
