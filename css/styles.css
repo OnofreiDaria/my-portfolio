@@ -8,8 +8,6 @@
   url("../fonts/enigma/EnigmaB_2.ttf") format("truetype"),
   url('../fonts/enigma/EnigmaticBold.svg') format('svg');
 }
-
-
 * {
   box-sizing: border-box;
 }
@@ -141,7 +139,6 @@ a {
   width: auto;
   vertical-align: middle;
 }
-
 .btn a {
   color: rgba(51,51,51,1);
   text-decoration: none;
@@ -198,12 +195,7 @@ a {
   border-radius: 2px;
   text-transform: uppercase;
 }
-
-
 /******* Menu ********/
-/*.menu {*/
-/*  padding: 20px 0;*/
-/*}*/
 .menu li {
   display: inline-block;
   padding: 5px;
@@ -219,7 +211,6 @@ a {
 .menu a:focus {
    color: #d21551;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -274,7 +265,6 @@ section:first-of-type {
   display: flex;
   align-items: flex-start;
 }
-
 .row {
   width: 100%;
   display: flex;
@@ -282,7 +272,6 @@ section:first-of-type {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .col-3 {
   width: 32.33%;
   flex: 0 0 32.33%;
@@ -302,7 +291,6 @@ section:first-of-type {
   padding-right:0;
   padding-left:0;
 }
-
 .col-2 {
   width: 50%;
   flex: 0 0 50%;
@@ -319,22 +307,18 @@ small {
   font-size: 12px;
   display: block;
 }
-
 /* SCROLL BAR*/
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
   background: #eee;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #3c318d;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #b13a72;
 }
@@ -356,23 +340,18 @@ small {
    animation: topBorder 1s linear forwards;
    animation-delay: 1s;
 }
-
 #top {
   top: 0;
 }
 #top:before {
    top: 0;
  }
-
 #bottom {
   bottom: 0;
 }
 #bottom:before {
    bottom: 0;
  }
-
-
-
 @keyframes bounceInLeft {
 
   0% {
